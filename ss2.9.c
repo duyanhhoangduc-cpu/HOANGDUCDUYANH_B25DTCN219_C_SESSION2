@@ -6,7 +6,7 @@ int main() {
     int b = 2;      // Bien so nguyen b
     int c = 1;      // Bien so nguyen c
 
-    // Tinh gia tri bieu thuc: A = a³ + b² + 2c + v(a + b - c)
+    // Tinh gia tri bieu thuc: A = aÂ³ + bÂ² + 2c + v(a + b - c)
     double A = pow(a, 3) + pow(b, 2) + 2 * c + sqrt(a + b - c);
 
     // In ket qua ra man hinh
